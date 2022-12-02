@@ -1,0 +1,8 @@
+.page {
+    color: #000000;
+    background-color: #ffffff;
+    margin: 0 auto 0 auto;
+    max-width: 1920px;
+    min-width: 360px;
+    text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,9 @@
+.header__account-menu-icon {
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.header__account-menu-icon:last-of-type {
+    margin-right: 0px;
+}

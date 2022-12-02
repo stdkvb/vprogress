@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__nav-menu/header__nav-menu.css);
+@import url(./blocks/header/__account-menu/header__account-menu.css);
+@import url(./blocks/header/__account-menu-link/header__account-menu-link.css);
+@import url(./blocks/header/__account-menu-icon/header__account-menu-icon.css);
+@import url(./blocks/header/__bottom-menu/header__bottom-menu.css);
+@import url(./blocks/header/__bottom-menu-link/header__bottom-menu-link.css);
+@import url(./blocks/header/__phone-menu/header__phone-menu.css);
+@import url(./blocks/header/__phone-menu-number/header__phone-menu-number.css);
+@import url(./blocks/header/__phone-menu-icon/header__phone-menu-icon.css);
+@import url(./blocks/header/__phone-menu-link/header__phone-menu-link.css);
+@import url(./blocks/header/__top-menu/header__top-menu.css);
+@import url(./blocks/header/__top-menu-link/header__top-menu-link.css);
+@import url(./blocks/header/__top-menu-icon/header__top-menu-icon.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}

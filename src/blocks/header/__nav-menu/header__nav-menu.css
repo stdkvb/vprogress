@@ -1,0 +1,13 @@
+.header__nav-menu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 209px;
+    gap: 0;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "top-menu account-menu"
+    "bottom-menu phone-menu";
+    border-left: solid 1px  #E6E6E6;
+    padding-left: 50px;
+    align-items: center;
+}

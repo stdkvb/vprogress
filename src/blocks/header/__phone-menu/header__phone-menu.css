@@ -1,0 +1,7 @@
+.header__phone-menu {
+    width: 210px;
+    grid-area: phone-menu;    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

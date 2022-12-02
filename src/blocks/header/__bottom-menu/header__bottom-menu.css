@@ -1,0 +1,4 @@
+.header__bottom-menu {
+    grid-area: bottom-menu;    
+    display: flex;
+}

@@ -1,0 +1,11 @@
+@font-face {
+    src: url('../fonts/Tahoma-Regular-font.ttf') format('ttf');
+    font-family: 'Tahoma';
+    font-weight: 400;
+  }
+
+@font-face {
+    src: url('../fonts/Tahoma.woff') format('woff');
+    font-family: 'Tahoma';
+    font-weight: 400;
+}
