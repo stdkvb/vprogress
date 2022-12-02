@@ -1,0 +1,8 @@
+.about__container {
+    height: 559px;
+    width: 1290px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+}

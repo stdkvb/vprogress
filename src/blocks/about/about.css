@@ -1,0 +1,9 @@
+.about {
+    height: 699px;
+    background-color: #e5e5e5;
+    background-image: url('../../images/worker.png'),
+    url('../../images/about_background.png');
+    background-repeat: no-repeat;
+    background-position: 853px, right;
+    background-size: contain;
+}

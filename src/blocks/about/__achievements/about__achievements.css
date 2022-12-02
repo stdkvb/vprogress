@@ -1,0 +1,7 @@
+.about__achievements {
+    height: 161px;
+    width: 1290px;
+    display: flex;
+    justify-content: space-between;
+    margin: 99px auto -40px auto;
+}

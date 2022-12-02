@@ -1,0 +1,7 @@
+.about__achievements-item {
+    width: 410px;
+    height: 161px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}

@@ -1,0 +1,10 @@
+.about__button {
+    width: 251px;
+    height: 56px;
+    margin: 56px 32px 0 0;
+    padding: 0;
+    border: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    background-color: #004084;;
+}
