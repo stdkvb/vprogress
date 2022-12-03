@@ -1,0 +1,13 @@
+.programms__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    background-color: #004084;
+    border-radius: 0px 20px 20px 20px;
+    background-image: url('../../../images/industrial_horizont.svg');
+    background-position-y: bottom;
+    background-position-x: -310px;
+    background-repeat: no-repeat;
+}

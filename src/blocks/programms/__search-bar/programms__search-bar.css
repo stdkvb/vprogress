@@ -1,0 +1,9 @@
+.programms__search-bar {
+    margin-top: 56px;
+    box-sizing: border-box;
+    width: 1226px;
+    height: 59px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+}

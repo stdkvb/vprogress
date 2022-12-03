@@ -4,7 +4,7 @@ import check from '../images/check.svg';
 
 function About() {
     return (
-        <div className='about'>
+        <section className='about'>
             <div className='about__container'>
                 <div className='about__description'>
                     <h1 className='about__title'>Профессиональный подход к обучению</h1>
@@ -35,7 +35,7 @@ function About() {
                     <p className='about__achievements-subtitle'>филиалов в стране</p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

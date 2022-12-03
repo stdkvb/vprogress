@@ -1,0 +1,9 @@
+.programms__card { 
+    width: 601px;
+    min-height: 323px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}

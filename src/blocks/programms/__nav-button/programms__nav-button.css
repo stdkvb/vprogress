@@ -1,0 +1,12 @@
+.programms__nav-button {
+    width: 252px;
+    height: 76px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+    color: #004084;
+    background: rgba(0, 64, 132, 0.2);
+    font-size: 22px;
+    line-height: 28px;
+}

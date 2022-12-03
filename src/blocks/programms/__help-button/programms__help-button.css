@@ -1,0 +1,10 @@
+.programms__help-button {
+    width: 212px;
+    height: 56px;
+    background: #EC650A;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}

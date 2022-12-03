@@ -1,0 +1,9 @@
+.programms__search-button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
