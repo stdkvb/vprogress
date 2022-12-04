@@ -1,0 +1,7 @@
+.benefits__title {    
+    width: calc(100% - 630px);
+    margin: 0 auto 0 auto;
+    font-family: 'Roboto';
+    font-size: 52px;
+    line-height: 62px;
+}

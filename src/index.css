@@ -54,3 +54,10 @@
 @import url(./blocks/programms/__help-title/programms__help-title.css);
 @import url(./blocks/programms/__help-subtitle/programms__help-subtitle.css);
 @import url(./blocks/programms/__help-button/programms__help-button.css);
+@import url(./blocks/benefits/benefits.css);
+@import url(./blocks/benefits/__title/benefits__title.css);
+@import url(./blocks/benefits/__container/benefits__container.css);
+@import url(./blocks/benefits/__card/benefits__card.css);
+@import url(./blocks/benefits/__card-icon/benefits__card-icon.css);
+@import url(./blocks/benefits/__card-title/benefits__card-title.css);
+@import url(./blocks/benefits/__card-description/benefits__card-description.css);
