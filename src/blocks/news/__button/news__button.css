@@ -1,0 +1,12 @@
+.news__button {
+    width: 165px;
+    height: 54px;
+    margin: 0;
+    padding: 0;
+    border: solid 1px #004084;
+    border-radius: 30px;
+    color: #004084;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    line-height: 20px;
+}

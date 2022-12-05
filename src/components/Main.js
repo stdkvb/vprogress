@@ -2,7 +2,7 @@ import React from 'react';
 import About from './About';
 import Benefits from './Benefits';
 import Programms from './Programms';
-
+import News from './News';
 
 function Main() {
     return (
@@ -10,6 +10,7 @@ function Main() {
             <About />
             <Programms />
             <Benefits />
+            <News />
         </main>
     );
 };
