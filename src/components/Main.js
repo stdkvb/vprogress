@@ -3,6 +3,7 @@ import About from './About';
 import Benefits from './Benefits';
 import Programms from './Programms';
 import News from './News';
+import Licenses from './Licenses';
 
 function Main() {
     return (
@@ -11,6 +12,7 @@ function Main() {
             <Programms />
             <Benefits />
             <News />
+            <Licenses />
         </main>
     );
 };
