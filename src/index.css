@@ -73,3 +73,5 @@
 @import url(./blocks/licenses/__title/licenses__title.css);
 @import url(./blocks/licenses/__container/licenses__container.css);
 @import url(./blocks/licenses/__image/licenses__image.css);
+@import url(./blocks/clients/clients.css);
+@import url(./blocks/clients/__logo/clients__logo.css);

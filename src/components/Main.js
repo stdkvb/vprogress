@@ -4,6 +4,7 @@ import Benefits from './Benefits';
 import Programms from './Programms';
 import News from './News';
 import Licenses from './Licenses';
+import Clients from './Clients';
 
 function Main() {
     return (
@@ -13,6 +14,7 @@ function Main() {
             <Benefits />
             <News />
             <Licenses />
+            <Clients />
         </main>
     );
 };

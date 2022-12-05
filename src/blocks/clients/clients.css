@@ -1,0 +1,6 @@
+.clients {
+    width: calc(100% - 630px);
+    margin: 90px auto 120px auto;
+    display: flex;
+    gap: 78px;
+}
