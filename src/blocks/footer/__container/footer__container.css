@@ -1,0 +1,9 @@
+.footer__container {
+    width: calc(100% - 630px);
+    margin: 48px auto 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 15px;
+    line-height: 20px;
+}
