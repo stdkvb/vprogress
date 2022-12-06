@@ -50,7 +50,11 @@
 @import url(./blocks/programms/__tabs-list/programms__tabs-list.css);
 @import url(./blocks/programms/__tab-item/programms__tab-item.css);
 @import url(./blocks/programms/__tab-title/programms__tab-title.css);
+@import url(./blocks/programms/__tab-title/_active/programms__tab-title_active.css);
 @import url(./blocks/programms/__tab-icon/programms__tab-icon.css);
+@import url(./blocks/programms/__tab-icon/_active/programms__tab-icon_active.css);
+@import url(./blocks/programms/__tab-content/programms__tab-content.css);
+@import url(./blocks/programms/__tab-link/programms__tab-link.css);
 @import url(./blocks/programms/__card/programms__card.css);
 @import url(./blocks/programms/__card/_high/programms__card_high.css);
 @import url(./blocks/programms/__card-title/programms__card-title.css);

@@ -1,0 +1,15 @@
+.programms__tab-link {
+    width: 600px;
+    text-decoration: none;
+    color: #004084;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 8px;    
+    margin-left: 60px;
+}
+
+.programms__tab-link:last-of-type {
+    margin-top: 26px;
+    color: #4E4E4E;
+    text-decoration: underline 1px solid #C8C8C8;
+}

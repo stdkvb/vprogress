@@ -3,9 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #C8C8C8;
+    border-top: 1px solid #C8C8C8;
 }
 
-.programms__tab-item:last-of-type {
-    border-bottom: none;
+.programms__tab-item:first-of-type {
+    border-top: none;
 }
