@@ -1,9 +1,9 @@
 .programms__search-button {
     width: 30px;
-    height: 30px;
-    padding: 0;
+    height: 51px;
     border: none;
     font: inherit;
     color: inherit;
-    background-color: transparent;
+    background-color: transparent;    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }

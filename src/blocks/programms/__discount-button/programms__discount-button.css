@@ -1,0 +1,10 @@
+.programms__discount-button {
+    width: 228px;
+    height: 56px;
+    background: #EC650A;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}

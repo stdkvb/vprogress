@@ -40,9 +40,17 @@
 @import url(./blocks/programms/__nav-button/programms__nav-button.css);
 @import url(./blocks/programms/__nav-button/_active/programms__nav-button_active.css);
 @import url(./blocks/programms/__content/programms__content.css);
+@import url(./blocks/programms/__discount/programms__discount.css);
+@import url(./blocks/programms/__discount-text/programms__discount-text.css);
+@import url(./blocks/programms/__discount-button/programms__discount-button.css);
 @import url(./blocks/programms/__search-bar/programms__search-bar.css);
 @import url(./blocks/programms/__search-input/programms__search-input.css);
 @import url(./blocks/programms/__search-button/programms__search-button.css);
+@import url(./blocks/programms/__search-icon/programms__search-icon.css);
+@import url(./blocks/programms/__tabs-list/programms__tabs-list.css);
+@import url(./blocks/programms/__tab-item/programms__tab-item.css);
+@import url(./blocks/programms/__tab-title/programms__tab-title.css);
+@import url(./blocks/programms/__tab-icon/programms__tab-icon.css);
 @import url(./blocks/programms/__card/programms__card.css);
 @import url(./blocks/programms/__card/_high/programms__card_high.css);
 @import url(./blocks/programms/__card-title/programms__card-title.css);
