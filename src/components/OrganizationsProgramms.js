@@ -1,7 +1,6 @@
 import React from 'react';
 import Accordion from './Accordion';
 
-
 function OrganizationsProgramms() {
 
     return (
