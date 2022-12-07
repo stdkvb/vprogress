@@ -1,4 +1,6 @@
 .news__card-title {
+    font-family: 'Roboto';
+    font-weight: 400;
     font-size: 22px;
     line-height: 28px;
     margin: 0;
