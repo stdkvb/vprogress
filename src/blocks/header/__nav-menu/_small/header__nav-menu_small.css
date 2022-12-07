@@ -1,0 +1,4 @@
+.header__nav-menu_small {
+    display: flex;
+    gap: 40px;
+}

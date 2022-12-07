@@ -1,7 +1,7 @@
 .header__nav-menu {
-    width: 100%;
+    width: 1050px;
     display: grid;
-    grid-template-columns: 1fr 209px;
+    grid-template-columns: 1fr 214px;
     gap: 0;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
