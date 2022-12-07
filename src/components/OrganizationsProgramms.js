@@ -1,46 +1,8 @@
 import React from 'react';
 import Accordion from './Accordion';
 
+
 function OrganizationsProgramms() {
-    
-    const accordionData = [
-        {
-            title: 'Охрана труда',
-        },
-        {
-            title: 'Промышленная безопасность',
-
-        },
-        {
-            title: 'Пожарная безопасность',
-
-        },
-        {
-            title: 'Электроэнергетика и электробезопасность',
-
-        },
-        {
-            title: 'Экологическая безопасность',
-
-        },
-        {
-            title: 'Транспортная безопасность',
-
-        },
-        {
-            title: 'Строительство',
-
-        },
-        {
-            title: 'Рабочие специальности',
-
-        },
-        {
-            title: 'Курсы',
-
-        },
-
-    ]
 
     return (
         <div className='programms__content'>
@@ -49,9 +11,15 @@ function OrganizationsProgramms() {
                 <button className='programms__discount-button'>Получить скидку</button>
             </div>
             <div className='programms__tabs-list'>
-                {accordionData.map(({ title, imageUrl }) => (
-                    <Accordion title={title} imageUrl={imageUrl} />
-                ))}
+                <Accordion title='Охрана труда' imageUrl={require('../images/ohrana_truda.png')} />
+                <Accordion title='Промышленная безопасность' imageUrl={require('../images/prombez.png')} />
+                <Accordion title='Пожарная безопасность' imageUrl={require('../images/pozhbez.png')} />
+                <Accordion title='Электроэнергетика и электробезопасность' imageUrl={require('../images/elektrobez.png')} />
+                <Accordion title='Экологическая безопасность' imageUrl={require('../images/ecobez.png')} />
+                <Accordion title='Транспортная безопасность' imageUrl={require('../images/transbez.png')} />
+                <Accordion title='Строительство' imageUrl={require('../images/stroyka.png')} />
+                <Accordion title='Рабочие специальности' imageUrl={require('../images/tools.png')} />
+                <Accordion title='Курсы' imageUrl={require('../images/courses.png')} />
             </div>
         </div>
     )

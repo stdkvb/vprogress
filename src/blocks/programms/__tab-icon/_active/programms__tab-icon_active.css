@@ -1,3 +1,4 @@
 .programms__tab-icon_active {
-    margin-top: 390px;
+    align-self: flex-end;
+    margin-bottom: 40px;
 }
