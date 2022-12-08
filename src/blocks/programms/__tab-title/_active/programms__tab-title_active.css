@@ -3,3 +3,9 @@
     color: #000000;
     margin-top: 40px;
 }
+
+@media screen and (max-width: 720px) {
+    .programms__tab-title_active {
+        margin-top: 24px;
+    }
+}

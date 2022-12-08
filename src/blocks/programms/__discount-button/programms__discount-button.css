@@ -8,3 +8,9 @@
     line-height: 20px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1080px) {
+    .programms__discount-button {
+        font-size: 14px;
+    }
+}

@@ -4,7 +4,7 @@
 }
 
 @media screen and (max-width: 1300px) {
-    .programms{
+    .programms {
         width: calc(100% - 20px);
         margin-top: 500px;
         margin-bottom: 60px;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 720px) {
-    .programms{
+    .programms {
         margin-top: 350px; 
     }
 }

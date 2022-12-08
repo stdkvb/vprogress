@@ -1,6 +1,7 @@
 .programms__discount {
     box-sizing: border-box;
-    width: 1210px;
+    width: 100%;
+    max-width: 1210px;
     height: 128px;
     display: flex;
     align-items: center;
@@ -8,4 +9,13 @@
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px 20px 20px 20px;
     padding: 0 28px 0 28px;
+}
+
+@media screen and (max-width: 1080px) {
+    .programms__discount{
+        flex-direction: column;
+        height: 170px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
 }

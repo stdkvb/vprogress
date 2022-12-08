@@ -2,3 +2,9 @@
     align-self: flex-end;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 720px) {
+    .programms__tab-icon_active {
+        margin-bottom: 24px;
+    }
+}

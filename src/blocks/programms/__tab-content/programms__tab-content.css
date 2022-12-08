@@ -6,3 +6,9 @@
     background-repeat: no-repeat;
     background-position: 690px, right;
 }
+
+@media screen and (max-width: 1250px) {
+    .programms__tab-content {
+        background-image: none !important;
+    }
+}

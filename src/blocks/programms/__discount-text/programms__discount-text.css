@@ -1,7 +1,14 @@
 .programms__discount-text {
-    width: 630px;
     font-family: 'Roboto Serif';
     font-size: 28px;
     line-height: 36px;
     color: #FFFFFF;
+    text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+    .programms__discount-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
 }
