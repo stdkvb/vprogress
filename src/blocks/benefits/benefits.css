@@ -1,5 +1,12 @@
 .benefits {
     background: #EFEFEF;
-    padding-top: 100px;
-    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 120px 0;
+}
+
+@media screen and (max-width: 900px) {
+    .benefits {
+        padding: 50px 0 60px 0;
+    }
 }

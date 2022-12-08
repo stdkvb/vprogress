@@ -1,8 +1,23 @@
-.benefits__title {    
-    width: calc(100% - 630px);
+.benefits__title {
+    width: 1290px;
     margin: 0 auto 0 auto;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 52px;
     line-height: 62px;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 1300px) {
+    .benefits__title {
+        width: 850px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .benefits__title {
+        font-size: 26px;
+        line-height: 36px;
+        width: 350px;
+    }
 }

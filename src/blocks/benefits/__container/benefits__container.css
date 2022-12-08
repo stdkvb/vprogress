@@ -1,7 +1,20 @@
-.benefits__container {        
-    width: calc(100% - 630px);
+.benefits__container {
+    width: 1290px;
     margin: 80px auto 0 auto;
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1300px) {
+    .benefits__container {
+        width: 850px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .benefits__container {
+        width: 350px;
+        margin-top: 30px;
+    }
 }

@@ -1,6 +1,13 @@
 .benefits__card-title {
     font-weight: 500;
-    margin: 28px 0 0 0;
+    margin: 28px 0 16px 0;
     font-size: 22px;
     line-height: 26px;
+}
+
+@media screen and (max-width: 900px) {
+    .benefits__card-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
