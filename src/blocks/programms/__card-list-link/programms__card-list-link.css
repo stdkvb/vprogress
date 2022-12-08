@@ -4,3 +4,10 @@
     line-height: 22px;
     color: #004084;
 }
+
+@media screen and (max-width: 1200px) {
+    .programms__card-list-link {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

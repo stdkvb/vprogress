@@ -1,11 +1,13 @@
 .programms {
-    width: calc(100% - 630px);
+    width: 1290px;
     margin: 240px auto 120px auto;
 }
 
 @media screen and (max-width: 1300px) {
     .programms{
-        margin-top: 500px; 
+        width: calc(100% - 20px);
+        margin-top: 500px;
+        margin-bottom: 60px;
     }
 }
 

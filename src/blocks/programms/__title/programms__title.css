@@ -5,3 +5,10 @@
     line-height: 62px;
     margin: 0;
 }
+
+@media screen and (max-width: 1290px) {
+    .programms__title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}

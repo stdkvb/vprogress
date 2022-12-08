@@ -5,3 +5,10 @@
     color: #FFFFFF;
     text-align: center;
 }
+
+@media screen and (max-width: 1290px) {
+    .programms__help-subtitle {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

@@ -5,5 +5,12 @@
     font-weight: 500;
     font-size: 28px;
     line-height: 33px;
-    margin: 40px 0 28px 40px;
+    margin: 0 0 28px;
+}
+
+@media screen and (max-width: 1200px) {
+    .programms__card-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
 }

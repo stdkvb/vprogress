@@ -7,3 +7,10 @@
     background-color: #004084;
     border-radius: 0px 0px 20px 20px;   
 }
+
+@media screen and (max-width: 1290px) {
+    .programms__help {
+        padding-top: 24px;
+        height: 200px;
+    }
+}

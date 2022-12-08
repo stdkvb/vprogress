@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import helmet from '../images/helmet.png';
 import graph from '../images/graph.png';
 import diploma from '../images/diploma.png';
@@ -34,7 +34,7 @@ function SelfProgramms() {
                     <li className='programms__card-list-item'><a className='programms__card-list-link programms__card-list-link_grey' href=''>Все программы  {'>'}</a></li>
                 </ul> 
             </div>
-            <div className='programms__card' style={{backgroundImage: `url(${books})`}}>
+            <div className='programms__card programms__card_high' style={{backgroundImage: `url(${books})`}}>
                 <h3 className='programms__card-title'>Курсы</h3>
                 <ul className='programms__card-list'>
                     <li className='programms__card-list-item'><a className='programms__card-list-link' href=''>Допуск к работе по обработке оборудования насыщенным паром высокого давления.</a></li>

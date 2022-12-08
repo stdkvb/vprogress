@@ -1,3 +1,9 @@
 .programms__card_high {
     height: 384px;
 }
+
+@media screen and (max-width: 1290px) {
+    .programms__card_high {
+        height: 310px;
+    }
+}

@@ -1,9 +1,24 @@
 .programms__card { 
-    width: 601px;
+    width: 530px;
     min-height: 323px;
     background: #FFFFFF;
     border-radius: 20px;
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+    padding: 40px;
+}
+
+@media screen and (max-width: 1290px) {
+    .programms__card {
+        background-image: none !important;
+        min-height: 200px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .programms__card {
+        padding: 20px;
+    }
 }

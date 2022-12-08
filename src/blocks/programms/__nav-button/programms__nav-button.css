@@ -10,3 +10,10 @@
     font-size: 22px;
     line-height: 28px;
 }
+
+@media screen and (max-width: 1080px) {
+    .programms__nav-button {
+        height: 52px;
+        font-size: 16px;
+    }
+}
