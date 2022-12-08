@@ -10,3 +10,17 @@
     font-size: 18px;
     line-height: 20px;
 }
+
+@media screen and (max-width: 1290px) {
+    .about__button {
+        width: 330px;
+        margin: 40px 0 0 0;
+        align-self: center;
+
+    }
+
+    .about__button:last-of-type {
+        width: 330px;
+        margin: 12px 0 0 0;
+    }
+ }

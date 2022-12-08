@@ -2,3 +2,15 @@
     width: calc(100% - 630px);
     margin: 240px auto 120px auto;
 }
+
+@media screen and (max-width: 1300px) {
+    .programms{
+        margin-top: 500px; 
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .programms{
+        margin-top: 350px; 
+    }
+}

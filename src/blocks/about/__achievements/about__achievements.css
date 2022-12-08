@@ -1,7 +1,14 @@
 .about__achievements {
-    height: 161px;
-    width: 1290px;
     display: flex;
     justify-content: space-between;
+    gap:30px;
     margin: 99px auto -40px auto;
 }
+
+@media screen and (max-width: 1300px) {
+    .about__achievements {
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 0;
+    }
+  }
