@@ -4,3 +4,9 @@
     color: #004084;
     margin-top: 6px;
 }
+
+@media screen and (max-width: 1210px) {
+    .header__phone-menu-link {
+        display: none;
+    }
+}

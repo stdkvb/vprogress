@@ -1,0 +1,14 @@
+.header_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .header_mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background-color: #FFFFFF;
+    }
+}

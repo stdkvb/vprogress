@@ -3,3 +3,9 @@
     line-height: 22px;
     display: flex;
 }
+
+@media screen and (max-width: 1200px) {
+    .header__phone-menu-number {
+        width: 210px;
+    }
+}

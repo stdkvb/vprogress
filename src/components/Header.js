@@ -12,12 +12,20 @@ function Header() {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       window.addEventListener('scroll', () =>
-        setSmall(window.pageYOffset > 50)
+        setSmall(window.pageYOffset > 1)
       );
     }
   }, []);
+
+  const burgerRef = React.useRef();
+  const navMenuRef = React.useRef();
+
+  const handleToggleActiveNav = () => {
+    burgerRef.current.classList.toggle('header__burger-button_active');
+    navMenuRef.current.classList.toggle('header__nav-menu_active');
+  }
   
-  return (
+  return (<>
     <header className={`header ${small ? 'header_small' : ''}`}>
       <img className={`header__logo ${small ? 'header__logo_small' : ''}`} src={logo} alt='логотип' />
       {!small ?
@@ -69,6 +77,28 @@ function Header() {
         </>
       }
     </header>
+    
+    <header className='header_mobile'>
+      <div className='header__top-bar'>
+        <img className='header__logo_mobile' src={logo} alt='логотип' />
+        <span className='header__phone'>+7 (222) 222-22-22</span>
+        <button className='header__burger-button' ref={burgerRef} onClick={handleToggleActiveNav}></button>
+      </div>
+      <nav className='header__nav-menu_mobile' ref={navMenuRef} onClick={handleToggleActiveNav}>
+        <div className='header__bottom-menu_mobile'>
+          <a className='header__bottom-menu-link_mobile'>Учебные программы</a>
+          <a className='header__bottom-menu-link_mobile'>Об учебном центре</a>
+          <a className='header__bottom-menu-link_mobile'>Полезно знать</a>
+          <a className='header__bottom-menu-link_mobile'>Контакты</a>
+        </div>
+        <div className='header__top-menu_mobile'>
+          <a className='header__top-menu-link_mobile'>Сведения об образовательной организации</a>
+          <a className='header__top-menu-link_mobile'>Онлайн-образование</a>
+          <a className='header__top-menu-link_mobile'>Версия для слабовидящих</a>
+        </div>
+      </nav>
+    </header>
+    </>
   );
 }
 

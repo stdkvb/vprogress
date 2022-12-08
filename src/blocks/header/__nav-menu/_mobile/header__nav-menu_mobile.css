@@ -1,0 +1,6 @@
+.header__nav-menu_mobile {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 15px 0 15px;
+}
