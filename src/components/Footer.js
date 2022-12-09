@@ -49,9 +49,9 @@ function Footer() {
             </div>
             <div className='footer__copyright'>
                 <span>ООО «Прогресс» © 2016 - 2022</span>
-                <div>
+                <div className='footer__copyright-links'>
                     <a className='footer__copyright-link' href=''>Политика обработки персональных данных</a>
-                    <span> | </span>
+                    <span className='footer__copyright-divider'> | </span>
                     <a className='footer__copyright-link' href=''>Лицензии</a>
                 </div>
                 <span>Разработка сайта — <a className='footer__developed-link' href=''>Вебпространство</a></span>

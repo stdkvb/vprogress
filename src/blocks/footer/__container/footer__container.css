@@ -1,9 +1,23 @@
 .footer__container {
-    width: calc(100% - 630px);
+    width: 1290px;
     margin: 48px auto 40px auto;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     font-size: 15px;
     line-height: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+    .footer__container {
+        width: 800px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer__container {
+        width: 360px;
+        margin: 0 auto 0 auto;;
+    }
 }
