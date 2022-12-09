@@ -56,7 +56,7 @@ function Benefits() {
                 </div>
                 <div className='benefits__card'>
                     <img className='benefits__card-icon' src={icon_9} alt=''></img>
-                    <h3 className='benefits__card-title'>Работаем по всей стране></h3>
+                    <h3 className='benefits__card-title'>Работаем по всей стране</h3>
                     <p className='benefits__card-description'>Работаем по всей России и имеем офисы более чем в 10 городах</p>
                 </div>
             </div>

@@ -32,19 +32,19 @@ function Header() {
         <>
           <nav className='header__nav-menu'>
             <div className='header__top-menu'>
-              <a className='header__top-menu-link'>Сведения об образовательной организации</a>
-              <a className='header__top-menu-link'>Онлайн-образование</a>
+              <span className='header__top-menu-link'>Сведения об образовательной организации</span>
+              <span className='header__top-menu-link'>Онлайн-образование</span>
               <img className='header__top-menu-icon' src={eye} alt='Версия для слабовидящих'></img>
             </div>
             <div className='header__bottom-menu'>
-              <a className='header__bottom-menu-link'>Учебные программы</a>
-              <a className='header__bottom-menu-link'>Об учебном центре</a>
-              <a className='header__bottom-menu-link'>Полезно знать</a>
-              <a className='header__bottom-menu-link'>Контакты</a>
+              <span className='header__bottom-menu-link'>Учебные программы</span>
+              <span className='header__bottom-menu-link'>Об учебном центре</span>
+              <span className='header__bottom-menu-link'>Полезно знать</span>
+              <span className='header__bottom-menu-link'>Контакты</span>
             </div>
             <div className='header__account-menu'>
               <img className='header__account-menu-icon' src={person} alt='Личный кабинет' />
-              <a className='header__account-menu-link'>Личный кабинет</a>
+              <span className='header__account-menu-link'>Личный кабинет</span>
               <img className='header__account-menu-icon' src={heart} alt='Избранное'></img>
               <img className='header__account-menu-icon' src={trolley} alt='Корзина'></img>
             </div>
@@ -53,16 +53,16 @@ function Header() {
                 <img className='header__phone-menu-icon' src={phone} alt='Телефон'></img>
                 +7 (937) 357-78-78
               </div>
-              <a className='header__phone-menu-link'>Заказать звонок</a>
+              <span className='header__phone-menu-link'>Заказать звонок</span>
             </div>
           </nav>
         </> : <>
           <nav className='header__nav-menu header__nav-menu_small'>
             <div className='header__bottom-menu'>
-              <a className='header__bottom-menu-link'>Учебные программы</a>
-              <a className='header__bottom-menu-link'>Об учебном центре</a>
-              <a className='header__bottom-menu-link'>Полезно знать</a>
-              <a className='header__bottom-menu-link'>Контакты</a>
+              <span className='header__bottom-menu-link'>Учебные программы</span>
+              <span className='header__bottom-menu-link'>Об учебном центре</span>
+              <span className='header__bottom-menu-link'>Полезно знать</span>
+              <span className='header__bottom-menu-link'>Контакты</span>
             </div>
             <div className='header__phone-menu header__phone-menu_small'>
                 <img className='header__phone-menu-icon' src={phone} alt='Телефон'></img>
@@ -86,15 +86,15 @@ function Header() {
       </div>
       <nav className='header__nav-menu_mobile' ref={navMenuRef} onClick={handleToggleActiveNav}>
         <div className='header__bottom-menu_mobile'>
-          <a className='header__bottom-menu-link_mobile'>Учебные программы</a>
-          <a className='header__bottom-menu-link_mobile'>Об учебном центре</a>
-          <a className='header__bottom-menu-link_mobile'>Полезно знать</a>
-          <a className='header__bottom-menu-link_mobile'>Контакты</a>
+          <span className='header__bottom-menu-link_mobile'>Учебные программы</span>
+          <span className='header__bottom-menu-link_mobile'>Об учебном центре</span>
+          <span className='header__bottom-menu-link_mobile'>Полезно знать</span>
+          <span className='header__bottom-menu-link_mobile'>Контакты</span>
         </div>
         <div className='header__top-menu_mobile'>
-          <a className='header__top-menu-link_mobile'>Сведения об образовательной организации</a>
-          <a className='header__top-menu-link_mobile'>Онлайн-образование</a>
-          <a className='header__top-menu-link_mobile'>Версия для слабовидящих</a>
+          <span className='header__top-menu-link_mobile'>Сведения об образовательной организации</span>
+          <span className='header__top-menu-link_mobile'>Онлайн-образование</span>
+          <span className='header__top-menu-link_mobile'>Версия для слабовидящих</span>
         </div>
       </nav>
     </header>

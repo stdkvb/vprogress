@@ -12,28 +12,28 @@ function Footer() {
                 <div className='footer__column'>
                     <span className='footer__title'>Учебные программы</span>
                     <span className='footer__subtitle'>Для себя</span>
-                    <a className='footer__link' href=''>Повышение квалификации</a>
-                    <a className='footer__link' href=''>Рабочие специальности</a>
-                    <a className='footer__link' href=''>Курсы</a>
-                    <a className='footer__link' href=''>Профессиональная переподготовка</a>
+                    <span className='footer__link'>Повышение квалификации</span>
+                    <span className='footer__link'>Рабочие специальности</span>
+                    <span className='footer__link'>Курсы</span>
+                    <span className='footer__link'>Профессиональная переподготовка</span>
                     <span className='footer__subtitle'>Для организаций</span>                  
-                    <a className='footer__link' href=''>Охрана труда</a>
-                    <a className='footer__link' href=''>Промышленная безопасность</a>
-                    <a className='footer__link' href=''>Пожарная безопасность</a>
-                    <a className='footer__link' href=''>Электроэнергетика и электробезопасность</a>
-                    <a className='footer__link' href=''>Экологическая безопасность</a>
-                    <a className='footer__link' href=''>Транспортная безопасность</a>
-                    <a className='footer__link' href=''>Строительство</a>
-                    <a className='footer__link' href=''>Рабочие специальности</a>
-                    <a className='footer__link' href=''>Курсы</a>
+                    <span className='footer__link'>Охрана труда</span>
+                    <span className='footer__link'>Промышленная безопасность</span>
+                    <span className='footer__link'>Пожарная безопасность</span>
+                    <span className='footer__link'>Электроэнергетика и электробезопасность</span>
+                    <span className='footer__link'>Экологическая безопасность</span>
+                    <span className='footer__link'>Транспортная безопасность</span>
+                    <span className='footer__link'>Строительство</span>
+                    <span className='footer__link'>Рабочие специальности</span>
+                    <span className='footer__link'>Курсы</span>
                 </div>
                 <div className='footer__column'>
                     <span className='footer__title'>О нас</span>
-                    <a className='footer__link' href=''>О компании</a>
-                    <a className='footer__link' href=''>Новости</a>
-                    <a className='footer__link' href=''>Педагогический состав</a>
-                    <a className='footer__link' href=''>Отзывы</a>
-                    <a className='footer__link' href=''>Сведения об образовательной организации</a>
+                    <span className='footer__link'>О компании</span>
+                    <span className='footer__link'>Новости</span>
+                    <span className='footer__link'>Педагогический состав</span>
+                    <span className='footer__link'>Отзывы</span>
+                    <span className='footer__link'>Сведения об образовательной организации</span>
                 </div>
                 <div className='footer__column'>
                     <span className='footer__title'>Лицензия</span>
@@ -50,11 +50,11 @@ function Footer() {
             <div className='footer__copyright'>
                 <span>ООО «Прогресс» © 2016 - 2022</span>
                 <div className='footer__copyright-links'>
-                    <a className='footer__copyright-link' href=''>Политика обработки персональных данных</a>
+                    <span className='footer__copyright-link'>Политика обработки персональных данных</span>
                     <span className='footer__copyright-divider'> | </span>
-                    <a className='footer__copyright-link' href=''>Лицензии</a>
+                    <span className='footer__copyright-link'>Лицензии</span>
                 </div>
-                <span>Разработка сайта — <a className='footer__developed-link' href=''>Вебпространство</a></span>
+                <span>Разработка сайта — <span className='footer__developed-link'>Вебпространство</span></span>
             </div>
         </footer>
     );
