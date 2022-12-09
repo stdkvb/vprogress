@@ -1,7 +1,6 @@
 .news__card {
     width: 300px;
     height: 349px;
-    margin-right: 30px;
 }
 
 .news__card:last-of-type {

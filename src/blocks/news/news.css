@@ -1,6 +1,13 @@
 .news {
-    width: calc(100% - 630px);
+    width: 100%;
     margin: 90px auto 120px auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+    .news {
+        margin-top: 30px;
+    }
 }

@@ -6,3 +6,10 @@
     line-height: 62px;
     margin: 0;
 }
+
+@media screen and (max-width: 850px) {
+    .news__title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}

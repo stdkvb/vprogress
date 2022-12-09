@@ -8,6 +8,7 @@ function News() {
                 <h3 className='news__title'>Пресс-центр</h3>
                 <button className='news__button' type='button'>Все новости</button>
             </div>
+            <div className='news__card-container'>
             <NewsCard
                 photo={require('../images/news_photo_1.png')}
                 date={'31.05.2022'}
@@ -28,8 +29,9 @@ function News() {
                 date={'31.05.2022'}
                 title={'Подписан закон об ужесточении требований к охране объектов ТЭК'}
             />
+            </div>
         </section>
-    );
+    );  
 };
 
 export default News;
