@@ -9,16 +9,15 @@
 
 @media screen and (max-width: 1300px) {
     .licenses__title {
-        width: 980px;
+        width: 630px;        
+        font-size: 26px;
+        line-height: 36px;
     }
 }
 
 @media screen and (max-width: 800px) {
     .licenses__title {
         width: 650px;
-        font-size: 26px;
-        line-height: 36px;
-        margin-left: 15px;
     }
 }
 
