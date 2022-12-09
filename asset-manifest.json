@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vprogress/static/css/main.a7460b93.css",
-    "main.js": "/vprogress/static/js/main.bda94938.js",
+    "main.css": "/vprogress/static/css/main.e88dd745.css",
+    "main.js": "/vprogress/static/js/main.8bd5bfa3.js",
     "static/js/787.cfffa83e.chunk.js": "/vprogress/static/js/787.cfffa83e.chunk.js",
     "static/media/Tahoma.ttf": "/vprogress/static/media/Tahoma.9064286ed2db2efdfd08.ttf",
     "static/media/Tahoma-Bold.eot": "/vprogress/static/media/Tahoma-Bold.df6408abc02b95c161cd.eot",
@@ -66,12 +66,12 @@
     "static/media/tab-icon.svg": "/vprogress/static/media/tab-icon.2353d46edbf31c75b5d607e502302341.svg",
     "static/media/close.svg": "/vprogress/static/media/close.70bbbf59a97bdec93220.svg",
     "static/media/burger.svg": "/vprogress/static/media/burger.bdbdfcf28fb4a4d02667.svg",
-    "main.a7460b93.css.map": "/vprogress/static/css/main.a7460b93.css.map",
-    "main.bda94938.js.map": "/vprogress/static/js/main.bda94938.js.map",
+    "main.e88dd745.css.map": "/vprogress/static/css/main.e88dd745.css.map",
+    "main.8bd5bfa3.js.map": "/vprogress/static/js/main.8bd5bfa3.js.map",
     "787.cfffa83e.chunk.js.map": "/vprogress/static/js/787.cfffa83e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7460b93.css",
-    "static/js/main.bda94938.js"
+    "static/css/main.e88dd745.css",
+    "static/js/main.8bd5bfa3.js"
   ]
 }
