@@ -1,6 +1,15 @@
 .clients {
-    width: calc(100% - 630px);
+    width: 100%;
     margin: 90px auto 120px auto;
+    padding: 0 15px 0 15px;
     display: flex;
+    flex-wrap: wrap;
     gap: 78px;
+}
+
+@media screen and (max-width: 850px) {
+    .clients {
+        gap: 30px;
+        margin: 30px auto 30px auto;
+    }
 }
