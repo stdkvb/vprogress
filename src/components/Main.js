@@ -9,10 +9,10 @@ import Clients from './Clients';
 function Main() {
     return (
         <main className='content'>
-            <About />
+            {/* <About />
             <Programms />
             <Benefits />
-            <News />
+            <News /> */}
             <Licenses />
             <Clients />
         </main>

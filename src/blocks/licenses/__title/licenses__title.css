@@ -1,8 +1,29 @@
 .licenses__title {
-    width: calc(100% - 630px);
     margin: 0 auto 0 auto;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 52px;
     line-height: 62px;
+    width: 1290px;
+}
+
+@media screen and (max-width: 1300px) {
+    .licenses__title {
+        width: 980px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .licenses__title {
+        width: 650px;
+        font-size: 26px;
+        line-height: 36px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .licenses__title {
+        width: 330px;
+    }
 }

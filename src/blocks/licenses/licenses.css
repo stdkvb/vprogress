@@ -2,3 +2,9 @@
     background: #EFEFEF;
     padding: 90px 0 120px 0;
 }
+
+@media screen and (max-width: 850px) {
+    .licenses {
+        padding: 50px 0 60px 0;
+    }
+}
