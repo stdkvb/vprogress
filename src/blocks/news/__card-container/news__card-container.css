@@ -4,6 +4,9 @@
     width: 1290px;
     justify-content: center;
     gap: 30px;
+    grid-area: container;
+    justify-self: center;
+    margin-top: 60px;
 }
 
 @media screen and (max-width: 1290px) {
@@ -15,6 +18,7 @@
 @media screen and (max-width: 1080px) {
     .news__card-container {
         width: 750px;
+        margin-top: 0;
     }
 }
 

@@ -9,11 +9,19 @@
     background-color: #FFFFFF;
     font-size: 18px;
     line-height: 20px;
+    grid-area: button;
+    justify-self: end;
+}
+
+@media screen and (max-width: 1300px) {
+    .news__button {
+        justify-self: center;       
+    }
 }
 
 @media screen and (max-width: 850px) {
     .news__button {
         width: 330px;
-        margin-top: 30px;        
+        margin-top: 40px;     
     }
 }

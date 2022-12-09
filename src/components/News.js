@@ -4,10 +4,8 @@ import NewsCard from './NewsCard';
 function News() {
     return (
         <section className='news'>
-            <div className='news__top-bar'>
-                <h3 className='news__title'>Пресс-центр</h3>
-                <button className='news__button' type='button'>Все новости</button>
-            </div>
+            <h3 className='news__title'>Пресс-центр</h3>
+            <button className='news__button' type='button'>Все новости</button>
             <div className='news__card-container'>
             <NewsCard
                 photo={require('../images/news_photo_1.png')}
