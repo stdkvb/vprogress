@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vprogress/static/css/main.e88dd745.css",
-    "main.js": "/vprogress/static/js/main.8bd5bfa3.js",
+    "main.css": "/vprogress/static/css/main.83cedd85.css",
+    "main.js": "/vprogress/static/js/main.9b22f094.js",
     "static/js/787.cfffa83e.chunk.js": "/vprogress/static/js/787.cfffa83e.chunk.js",
     "static/media/Tahoma.ttf": "/vprogress/static/media/Tahoma.9064286ed2db2efdfd08.ttf",
     "static/media/Tahoma-Bold.eot": "/vprogress/static/media/Tahoma-Bold.df6408abc02b95c161cd.eot",
@@ -10,12 +10,12 @@
     "static/media/Tahoma.woff": "/vprogress/static/media/Tahoma.513042bb89b5cd7f6fed.woff",
     "static/media/Tahoma-Bold.woff": "/vprogress/static/media/Tahoma-Bold.32dc26c16ccf6fe7ecd5.woff",
     "static/media/Tahoma.woff2": "/vprogress/static/media/Tahoma.0d346ecdf78537d530f9.woff2",
+    "static/media/license_3.jpg": "/vprogress/static/media/license_3.d08b9a57ac1cbe4c2489.jpg",
     "static/media/Tahoma-Bold.woff2": "/vprogress/static/media/Tahoma-Bold.2d1cf8785c5244844e1e.woff2",
     "static/media/worker.png": "/vprogress/static/media/worker.7b306ee18b9ed1b7a12d.png",
-    "static/media/license_3.png": "/vprogress/static/media/license_3.7e81afcf037ccd92541c.png",
-    "static/media/license_4.png": "/vprogress/static/media/license_4.5ce3b33f219a6d5fad66.png",
-    "static/media/license_1.png": "/vprogress/static/media/license_1.0c2e00720134af5a5c1f.png",
-    "static/media/license_2.png": "/vprogress/static/media/license_2.ce54ddd8d43c13a2ee8b.png",
+    "static/media/license_4.jpg": "/vprogress/static/media/license_4.aa5a4e22fbb0b1adc2d1.jpg",
+    "static/media/license_1.jpg": "/vprogress/static/media/license_1.b86f48c7de367a8d201d.jpg",
+    "static/media/license_2.jpg": "/vprogress/static/media/license_2.a897cbd7634ad4b4d622.jpg",
     "static/media/Roboto-Regular.eot": "/vprogress/static/media/Roboto-Regular.30b57652c88c5dbd65de.eot",
     "static/media/Roboto-Regular.ttf": "/vprogress/static/media/Roboto-Regular.25e40da956314b12d333.ttf",
     "static/media/Roboto-Bold.eot": "/vprogress/static/media/Roboto-Bold.6490694b37b0ee09bd91.eot",
@@ -59,6 +59,7 @@
     "static/media/benefits_icon_1.svg": "/vprogress/static/media/benefits_icon_1.b784b1654aa6151cec983ffe93ead668.svg",
     "static/media/trolley.svg": "/vprogress/static/media/trolley.a616078bc3b307c6f9650b43c8b9ed74.svg",
     "index.html": "/vprogress/index.html",
+    "static/media/close_icon.svg": "/vprogress/static/media/close_icon.9e1f8e69f2b0d433d958.svg",
     "static/media/benefits_icon_6.svg": "/vprogress/static/media/benefits_icon_6.24d40c6471a257a882a5f37b12171d5e.svg",
     "static/media/benefits_icon_7.svg": "/vprogress/static/media/benefits_icon_7.b6b08ee4bcdddf9aaa946dfad598b657.svg",
     "static/media/heart.svg": "/vprogress/static/media/heart.29892012ec7c6e09d70e2346812f169d.svg",
@@ -66,12 +67,12 @@
     "static/media/tab-icon.svg": "/vprogress/static/media/tab-icon.2353d46edbf31c75b5d607e502302341.svg",
     "static/media/close.svg": "/vprogress/static/media/close.70bbbf59a97bdec93220.svg",
     "static/media/burger.svg": "/vprogress/static/media/burger.bdbdfcf28fb4a4d02667.svg",
-    "main.e88dd745.css.map": "/vprogress/static/css/main.e88dd745.css.map",
-    "main.8bd5bfa3.js.map": "/vprogress/static/js/main.8bd5bfa3.js.map",
+    "main.83cedd85.css.map": "/vprogress/static/css/main.83cedd85.css.map",
+    "main.9b22f094.js.map": "/vprogress/static/js/main.9b22f094.js.map",
     "787.cfffa83e.chunk.js.map": "/vprogress/static/js/787.cfffa83e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e88dd745.css",
-    "static/js/main.8bd5bfa3.js"
+    "static/css/main.83cedd85.css",
+    "static/js/main.9b22f094.js"
   ]
 }
