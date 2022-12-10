@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vprogress/static/css/main.83cedd85.css",
+    "main.css": "/vprogress/static/css/main.96e85fda.css",
     "main.js": "/vprogress/static/js/main.9b22f094.js",
     "static/js/787.cfffa83e.chunk.js": "/vprogress/static/js/787.cfffa83e.chunk.js",
     "static/media/Tahoma.ttf": "/vprogress/static/media/Tahoma.9064286ed2db2efdfd08.ttf",
@@ -67,12 +67,12 @@
     "static/media/tab-icon.svg": "/vprogress/static/media/tab-icon.2353d46edbf31c75b5d607e502302341.svg",
     "static/media/close.svg": "/vprogress/static/media/close.70bbbf59a97bdec93220.svg",
     "static/media/burger.svg": "/vprogress/static/media/burger.bdbdfcf28fb4a4d02667.svg",
-    "main.83cedd85.css.map": "/vprogress/static/css/main.83cedd85.css.map",
+    "main.96e85fda.css.map": "/vprogress/static/css/main.96e85fda.css.map",
     "main.9b22f094.js.map": "/vprogress/static/js/main.9b22f094.js.map",
     "787.cfffa83e.chunk.js.map": "/vprogress/static/js/787.cfffa83e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83cedd85.css",
+    "static/css/main.96e85fda.css",
     "static/js/main.9b22f094.js"
   ]
 }
